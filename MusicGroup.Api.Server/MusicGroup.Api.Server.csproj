@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>MusicGroup.Server</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MusicGroup.Api.Common\MusicGroup.Api.Common.csproj" />
+      <ProjectReference Include="..\MusicGroup.Common\MusicGroup.Common.csproj" />
+      <ProjectReference Include="..\MusicGroup.Db\MusicGroup.Db.csproj" />
+    </ItemGroup>
+
+</Project>

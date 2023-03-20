@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "YPoWY8c6buyHY8B1pgqhP0Ca7QfeOGcU9Kkjh3x4OYs=",
+  "Source": "MusicGroup.Api.ServiceHost",
+  "BasePath": "_content/MusicGroup.Api.ServiceHost",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

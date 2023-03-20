@@ -1,0 +1,205 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/oleksandrnefodov/RiderProjects/MusicGroup/MusicGroup.ServiceHost/MusicGroup.ServiceHost.csproj": {}
+  },
+  "projects": {
+    "/Users/oleksandrnefodov/RiderProjects/MusicGroup/MusicGroup.Common/MusicGroup.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/oleksandrnefodov/RiderProjects/MusicGroup/MusicGroup.Common/MusicGroup.Common.csproj",
+        "projectName": "MusicGroup.Common",
+        "projectPath": "/Users/oleksandrnefodov/RiderProjects/MusicGroup/MusicGroup.Common/MusicGroup.Common.csproj",
+        "packagesPath": "/Users/oleksandrnefodov/.nuget/packages/",
+        "outputPath": "/Users/oleksandrnefodov/RiderProjects/MusicGroup/MusicGroup.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/oleksandrnefodov/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/reapptor-apps/auth/c1974203-0797-4879-9034-e16c256c1445/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.18.0, )"
+            },
+            "Microsoft.AspNetCore.DataProtection": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.2-mauipre.1.22054.8, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.18.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[2.0.2.45, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.18.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/oleksandrnefodov/RiderProjects/MusicGroup/MusicGroup.ServiceHost/MusicGroup.ServiceHost.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/oleksandrnefodov/RiderProjects/MusicGroup/MusicGroup.ServiceHost/MusicGroup.ServiceHost.csproj",
+        "projectName": "MusicGroup.ServiceHost",
+        "projectPath": "/Users/oleksandrnefodov/RiderProjects/MusicGroup/MusicGroup.ServiceHost/MusicGroup.ServiceHost.csproj",
+        "packagesPath": "/Users/oleksandrnefodov/.nuget/packages/",
+        "outputPath": "/Users/oleksandrnefodov/RiderProjects/MusicGroup/MusicGroup.ServiceHost/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/oleksandrnefodov/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/reapptor-apps/auth/c1974203-0797-4879-9034-e16c256c1445/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/oleksandrnefodov/RiderProjects/MusicGroup/MusicGroup.Common/MusicGroup.Common.csproj": {
+                "projectPath": "/Users/oleksandrnefodov/RiderProjects/MusicGroup/MusicGroup.Common/MusicGroup.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "IronPdf": {
+              "target": "Package",
+              "version": "[2021.11.4257, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.HealthChecks": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "NSwag.MSBuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[13.16.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.3.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

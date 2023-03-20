@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="Microsoft.AspNetCore.Authorization">
+        <HintPath>..\..\..\..\..\usr\local\share\dotnet\shared\Microsoft.AspNetCore.App\6.0.4\Microsoft.AspNetCore.Authorization.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MusicGroup.Api.Common\MusicGroup.Api.Common.csproj" />
+      <ProjectReference Include="..\MusicGroup.Api.ServiceHost\MusicGroup.Api.ServiceHost.csproj" />
+      <ProjectReference Include="..\MusicGroup.Common\MusicGroup.Common.csproj" />
+    </ItemGroup>
+
+</Project>
