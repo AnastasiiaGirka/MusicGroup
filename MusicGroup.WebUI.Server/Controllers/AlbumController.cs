@@ -1,4 +1,3 @@
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MusicGroup.Api.Common.Models;
 using MusicGroup.Api.Common.Models.Requests;
@@ -12,14 +11,12 @@ namespace MusicGroup.WebUI.Server.Controllers
         {
         }
 
-        [AllowAnonymous]
         [HttpGet("GetAlbum")]
-        public async Task<Album> GetAlbumAsync(Guid Id)
+        public async Task<Album> GetAlbumAsync(Guid id)
         {
-            return await AlbumApiClient.GetAlbumAsync(Id);
+            return await AlbumApiClient.GetAlbumAsync(id);
         }
-
-        [AllowAnonymous]
+        
         [HttpGet("ListAlbums")]
         public async Task<Album[]> ListAlbumsAsync()
         {
@@ -28,7 +25,6 @@ namespace MusicGroup.WebUI.Server.Controllers
             return result.ToArray();
         }
 
-        [AllowAnonymous]
         [HttpPost("SaveAlbum")]
         public async Task<Album> SaveAlbumAsync(SaveAlbumRequest request)
         {

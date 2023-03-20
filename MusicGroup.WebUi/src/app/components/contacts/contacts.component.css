@@ -1,0 +1,17 @@
+.contacts {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.form {
+  margin: 10px;
+  min-width: 300px;
+}
+
+.text {
+  margin: 10px;
+  font-size: 24px;
+}

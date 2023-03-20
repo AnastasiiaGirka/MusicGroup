@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "80qQ9+IGB4abUDe9Z73mMVyIQExYMlSTr22QAc2+ey8=",
+  "Hash": "aZRVlARIxnOiVXQjO4Kz6+/GXJMQbdTOa84P4huVbOA=",
   "Source": "MusicGroup.WebUi",
   "BasePath": "_content/MusicGroup.WebUi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "/Users/oleksandrnefodov/RiderProjects/MusicGroup/MusicGroup.Api.ServiceHost/MusicGroup.Api.ServiceHost.csproj",
+      "Identity": "/Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.Api.ServiceHost/MusicGroup.Api.ServiceHost.csproj",
       "Version": 2,
       "Source": "MusicGroup.Api.ServiceHost",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",

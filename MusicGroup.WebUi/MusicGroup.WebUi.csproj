@@ -10,6 +10,7 @@
       <ProjectReference Include="..\MusicGroup.Api.ServiceHost\MusicGroup.Api.ServiceHost.csproj" />
       <ProjectReference Include="..\MusicGroup.Common\MusicGroup.Common.csproj" />
       <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="6.0.15" />
+      <ProjectReference Include="..\MusicGroup.WebUI.Server\MusicGroup.WebUI.Server.csproj" />
     </ItemGroup>
 
     <ItemGroup>

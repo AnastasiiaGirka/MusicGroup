@@ -37,6 +37,8 @@ namespace MusicGroup.Server.Services
                 {
                     Name = request.Name
                 };
+                
+                await DbService.SaveAlbumAsync(album);
             }
             else
             {
@@ -45,8 +47,8 @@ namespace MusicGroup.Server.Services
                 album.Name = request.Name;
             }
 
-            await DbService.SaveAlbumAsync(album);
-
+            await DbService.SaveChangesAsync();
+            
             return album.Transform();
         }
     }

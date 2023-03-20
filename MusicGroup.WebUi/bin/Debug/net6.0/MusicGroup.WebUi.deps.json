@@ -10,7 +10,8 @@
         "dependencies": {
           "Microsoft.AspNetCore.SpaServices.Extensions": "6.0.15",
           "MusicGroup.Api.ServiceHost": "1.0.0",
-          "MusicGroup.Common": "1.0.0"
+          "MusicGroup.Common": "1.0.0",
+          "MusicGroup.WebUI.Server": "1.0.0"
         },
         "runtime": {
           "MusicGroup.WebUi.dll": {}
@@ -1502,6 +1503,7 @@
       "MusicGroup.Db/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.5",
+          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.5",
           "Microsoft.EntityFrameworkCore.InMemory": "6.0.5",
           "MusicGroup.Common": "1.0.0",
           "Newtonsoft.Json": "13.0.1",
@@ -1509,6 +1511,16 @@
         },
         "runtime": {
           "MusicGroup.Db.dll": {}
+        }
+      },
+      "MusicGroup.WebUI.Server/1.0.0": {
+        "dependencies": {
+          "MusicGroup.Api.Common": "1.0.0",
+          "MusicGroup.Api.ServiceHost": "1.0.0",
+          "MusicGroup.Common": "1.0.0"
+        },
+        "runtime": {
+          "MusicGroup.WebUI.Server.dll": {}
         }
       }
     }
@@ -2786,6 +2798,11 @@
       "sha512": ""
     },
     "MusicGroup.Db/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MusicGroup.WebUI.Server/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

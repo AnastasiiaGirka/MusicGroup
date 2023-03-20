@@ -3157,6 +3157,21 @@
         "runtime": {
           "bin/placeholder/MusicGroup.Db.dll": {}
         }
+      },
+      "MusicGroup.WebUI.Server/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MusicGroup.Api.Common": "1.0.0",
+          "MusicGroup.Api.ServiceHost": "1.0.0",
+          "MusicGroup.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MusicGroup.WebUI.Server.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MusicGroup.WebUI.Server.dll": {}
+        }
       }
     }
   },
@@ -8640,13 +8655,19 @@
       "type": "project",
       "path": "../MusicGroup.Db/MusicGroup.Db.csproj",
       "msbuildProject": "../MusicGroup.Db/MusicGroup.Db.csproj"
+    },
+    "MusicGroup.WebUI.Server/1.0.0": {
+      "type": "project",
+      "path": "../MusicGroup.WebUI.Server/MusicGroup.WebUI.Server.csproj",
+      "msbuildProject": "../MusicGroup.WebUI.Server/MusicGroup.WebUI.Server.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.AspNetCore.SpaServices.Extensions >= 6.0.15",
       "MusicGroup.Api.ServiceHost >= 1.0.0",
-      "MusicGroup.Common >= 1.0.0"
+      "MusicGroup.Common >= 1.0.0",
+      "MusicGroup.WebUI.Server >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8680,6 +8701,9 @@
             },
             "/Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.Common/MusicGroup.Common.csproj": {
               "projectPath": "/Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.Common/MusicGroup.Common.csproj"
+            },
+            "/Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.WebUI.Server/MusicGroup.WebUI.Server.csproj": {
+              "projectPath": "/Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.WebUI.Server/MusicGroup.WebUI.Server.csproj"
             }
           }
         }

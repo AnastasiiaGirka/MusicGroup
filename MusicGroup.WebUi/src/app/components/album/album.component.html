@@ -1,0 +1,52 @@
+<div class="album">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 mt-4">
+        <h1 class="text-center">Albums management</h1>
+        <table class="table table-bordered table-striped table-hover">
+          <thead>
+          <tr>
+            <th class="text-center">ID</th>
+            <th class="text-center">Name</th>
+            <th class="text-center">&nbsp;</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let album of albums">
+            <td>{{ album.id }}</td>
+            <td>{{ album.name }}</td>
+
+            <td>
+              <button type="button" class="button btn btn-info btn-sm mr-2" (click)="showEditAlbumForm(album)">Edit</button>
+
+              <button type="button" class="btn btn-danger btn-sm" (click)="removeAlbum(album)">Delete</button>
+            </td>
+
+          </tr>
+          </tbody>
+        </table>
+        <button class="btn btn-success" (click)="showAddAlbumForm()">Add New Album</button>
+
+        <div class="mt-4">
+          <form *ngIf="albumForm">
+            <h2>Add New Album</h2>
+            <p>Name: <input type="text" name="name" [(ngModel)]="newAlbum!.name"/></p>
+            <p>
+              <button type="button" class="button btn btn-primary mr-5" (click)="saveAlbum()">Submit</button>
+              <button type="button" class="btn btn-warning" (click)="resetForms()">Cancel</button>
+            </p>
+          </form>
+
+          <form *ngIf="editAlbumForm">
+            <h2>Edit Album Details</h2>
+            <p>First Name: <input type="text" name="name" [(ngModel)]="editedAlbum!.name"/></p>
+            <p>
+              <button type="button" class="button btn btn-primary mr-5" (click)="saveAlbum()">Submit</button>
+              <button type="button" class="btn btn-warning" (click)="resetForms()">Cancel</button>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

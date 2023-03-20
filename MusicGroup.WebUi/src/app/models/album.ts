@@ -1,7 +1,7 @@
 import {Song} from "./song";
 
 export class Album {
-  id?: number |  null = null;
+  id: string = "";
 
   name: string= "";
 

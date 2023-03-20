@@ -12,16 +12,21 @@ export class AlbumService {
 
   constructor(private http: HttpClient) { }
 
-  public getAlbum(id: number): Observable<Album>{
-    return this.http.get<Album>(`${environment.apiUrl}/GetAlbum`, { params: {id} });
+  public getAlbum(id: string): Observable<Album>{
+    return this.http.get<Album>(`${environment.apiUrl}/Album/GetAlbum`, { params: {id} });
   }
-  public saveAlbum(name: string): Observable<Album>{
+  public saveAlbum(id: string, name: string): Observable<Album>{
     const request = new SaveAlbumRequest();
+    request.id = id;
     request.name = name;
 
-    return this.http.post<Album>(`${environment.apiUrl}/SaveAlbum`, request);
+    return this.http.post<Album>(`${environment.apiUrl}/Album/SaveAlbum`, request);
   }
   public listAlbums(): Observable<Album[]>{
-    return this.http.get<Album[]>(`${environment.apiUrl}/ListAlbums`);
+    return this.http.get<Album[]>(`${environment.apiUrl}/Album/ListAlbums`);
+  }
+
+  public removeAlbum(id: string): Observable<void>{
+    return this.http.post<void>(`${environment.apiUrl}/Album/RemoveAlbum`, id);
   }
 }

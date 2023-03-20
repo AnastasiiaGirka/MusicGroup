@@ -1,5 +1,5 @@
 export class SaveAlbumRequest {
-  id?: number |  null = null;
+  id: string = "";
 
   name: string= "";
 }

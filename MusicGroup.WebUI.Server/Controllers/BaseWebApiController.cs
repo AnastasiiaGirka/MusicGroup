@@ -7,10 +7,9 @@ using MusicGroup.Common.Models;
 
 namespace MusicGroup.WebUI.Server.Controllers
 {
-    [Authorize]
+    [AllowAnonymous]
     [ApiController]
-    [ValidateAntiForgeryToken]
-    [Route("api/[controller]")]
+    [Route("fe/api/[controller]")]
     public abstract class BaseWebApiController
     {
         private readonly IServiceProvider _serviceProvider;

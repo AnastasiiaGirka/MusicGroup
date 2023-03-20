@@ -8,6 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <!-- MICROSOFT: -->
         <PackageReference Include="Microsoft.AspNetCore.Diagnostics.HealthChecks" Version="2.2.0" />
         <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.5" />
         <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />

@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using MusicGroup.Api.Db.Context.Entities;
+
 #pragma warning disable CS8602
 
 namespace MusicGroup.Api.Db
@@ -8,9 +9,7 @@ namespace MusicGroup.Api.Db
     {
         public async Task SaveAlbumAsync(AlbumDbEntity album)
         {
-            await  _context.AddAsync(album);
-            
-            await _context.SaveChangesAsync();
+            await _context.AddAsync(album);
         }
 
         public async Task<AlbumDbEntity[]> ListAlbumsAsync()
@@ -19,7 +18,7 @@ namespace MusicGroup.Api.Db
                 .Albums
                 .ToArrayAsync();
         }
-        
+
         public async Task<AlbumDbEntity> GetAlbumAsync(Guid albumId)
         {
             AlbumDbEntity? album = await FindAlbumAsync(albumId);

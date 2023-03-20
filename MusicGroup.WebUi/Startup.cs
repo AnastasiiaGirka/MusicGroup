@@ -1,21 +1,11 @@
-using System;
-using System.Linq;
-using System.Threading.Tasks;
-
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.Headers;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
-using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
-using Microsoft.Extensions.Logging;
 using Microsoft.Net.Http.Headers;
 using MusicGroup.Common;
 using MusicGroup.Common.Models;
+using MusicGroup.WebUI.Server.Middlewares;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
@@ -75,7 +65,7 @@ public class Startup
 
         private void AddApiClients(IServiceCollection services)
         {
-            var endpoint = new Uri(@"http://localhost:38080/");
+            var endpoint = new Uri(@"http://localhost:48080/");
 
             AddApiClient<AlbumApiClient>(services, endpoint);
             AddApiClient<SongApiClient>(services, endpoint);
@@ -127,6 +117,8 @@ public class Startup
             app.UseSession();
 
             app.UseAuthentication();
+
+            app.UseApiExceptionMiddleware();
 
 #pragma warning disable MVC1005
             app.UseMvc();
