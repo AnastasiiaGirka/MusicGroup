@@ -11,7 +11,7 @@ namespace MusicGroup.Server.Services
         private AlbumService _albumService;
         private ILogger _logger;
         private DbService _dbService;
-        private FileDb _fileDb;
+        private FileDb _fileDbService;
 
         protected BaseService(IServiceProvider serviceProvider)
         {
@@ -38,7 +38,7 @@ namespace MusicGroup.Server.Services
         
         protected DbService DbService => _dbService ??= _serviceProvider.GetRequiredService<DbService>();
         
-        protected FileDb FileDb => _fileDb ??= _serviceProvider.GetRequiredService<FileDb>();
+        protected FileDb FileDbService => _fileDbService ??= _serviceProvider.GetRequiredService<FileDb>();
 
         #endregion
 
