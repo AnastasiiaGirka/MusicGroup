@@ -5,8 +5,12 @@
     <projectFile profileName="MusicGroup.WebUi">MusicGroup.WebUi/MusicGroup.WebUi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9da4c82e-9d76-45c9-a329-a60111d3e1fb" name="Changes" comment="Refactoring;">
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Db/FileDb/FileDbService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Db/FileDb/FileDbService.cs" afterDir="false" />
+    <list default="true" id="9da4c82e-9d76-45c9-a329-a60111d3e1fb" name="Changes" comment="File db service writes to the folder with relative path;">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MusicGroup/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MusicGroup/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.Common/MusicGroup.Api.Common.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.Common/MusicGroup.Api.Common.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/bin/Debug/net6.0/FileDbStorage/AlbumDbEntity" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/bin/Debug/net6.0/FileDbStorage/AlbumDbEntity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/bin/Debug/net6.0/logs/backend.log" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/bin/Debug/net6.0/logs/backend.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/logs/backend.log" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/logs/backend.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +58,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Compound.FullStack">
+  <component name="RunManager" selected=".NET Launch Settings Profile.MusicGroup.Api.ServiceHost">
     <configuration name="FullStack" type="CompoundRunConfigurationType">
       <toRun name="MusicGroup.Api.ServiceHost" type="LaunchSettings" />
       <toRun name="MusicGroup.WebUi" type="LaunchSettings" />
@@ -106,7 +110,7 @@
       <updated>1679292753573</updated>
       <workItem from="1679292754890" duration="2672000" />
       <workItem from="1679348967333" duration="2586000" />
-      <workItem from="1679383971646" duration="5096000" />
+      <workItem from="1679383971646" duration="6398000" />
     </task>
     <task id="LOCAL-00001" summary="Added Delete albums and added new FileDbService;">
       <created>1679388499975</created>
@@ -129,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679388544622</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="File db service writes to the folder with relative path;">
+      <created>1679389485521</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679389485521</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +153,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Added Delete albums and added new FileDbService;" />
     <MESSAGE value="Refactoring;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring;" />
+    <MESSAGE value="File db service writes to the folder with relative path;" />
+    <option name="LAST_COMMIT_MESSAGE" value="File db service writes to the folder with relative path;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -243,10 +255,10 @@
           <line>52</line>
           <properties documentPath="$PROJECT_DIR$/MusicGroup.Db/FileDb/FileDb.cs" initialLine="44" containingFunctionPresentation="method 'Insert'">
             <startOffsets>
-              <option value="1367" />
+              <option value="1386" />
             </startOffsets>
             <endOffsets>
-              <option value="1411" />
+              <option value="1430" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="24" />
@@ -256,10 +268,10 @@
           <line>42</line>
           <properties documentPath="$PROJECT_DIR$/MusicGroup.Db/FileDb/FileDb.cs" initialLine="42" containingFunctionPresentation="method 'Insert'">
             <startOffsets>
-              <option value="1196" />
+              <option value="1215" />
             </startOffsets>
             <endOffsets>
-              <option value="1235" />
+              <option value="1254" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="25" />
@@ -269,13 +281,39 @@
           <line>49</line>
           <properties documentPath="$PROJECT_DIR$/MusicGroup.Db/FileDb/FileDb.cs" initialLine="49" containingFunctionPresentation="method 'Insert'">
             <startOffsets>
-              <option value="1346" />
+              <option value="1365" />
             </startOffsets>
             <endOffsets>
-              <option value="1347" />
+              <option value="1366" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MusicGroup.Db/FileDb/FileDbService.cs</url>
+          <line>11</line>
+          <properties documentPath="$PROJECT_DIR$/MusicGroup.Db/FileDb/FileDbService.cs" initialLine="11" containingFunctionPresentation="constructor 'FileDb'">
+            <startOffsets>
+              <option value="229" />
+            </startOffsets>
+            <endOffsets>
+              <option value="299" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MusicGroup.Db/FileDb/FileDbService.cs</url>
+          <line>17</line>
+          <properties documentPath="$PROJECT_DIR$/MusicGroup.Db/FileDb/FileDbService.cs" initialLine="17" containingFunctionPresentation="method 'Initialize'">
+            <startOffsets>
+              <option value="376" />
+            </startOffsets>
+            <endOffsets>
+              <option value="377" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

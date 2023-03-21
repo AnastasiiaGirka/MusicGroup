@@ -3515,3 +3515,189 @@ Server: Kestrel
 Content-Length: 74
 Content-Type: application/json; charset=utf-8
  
+2023-03-21 11:04:58.7746|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 11:04:59.4692|INFO|MusicGroup.WebUi.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup WebUI on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 11:05:15.0102|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Start processing HTTP request GET http://localhost:48080/api/Album/ListAlbums 
+2023-03-21 11:05:15.0235|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+ 
+2023-03-21 11:05:15.0242|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Sending HTTP request GET http://localhost:48080/api/Album/ListAlbums 
+2023-03-21 11:05:15.0242|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+ 
+2023-03-21 11:05:16.6810|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Received HTTP response headers after 1652.8656ms - 200 
+2023-03-21 11:05:16.6813|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 09:05:16 GMT
+Server: Kestrel
+Content-Length: 2
+Content-Type: application/json; charset=utf-8
+ 
+2023-03-21 11:05:16.6813|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|End processing HTTP request after 1681.5464ms - 200 
+2023-03-21 11:05:16.6821|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 09:05:16 GMT
+Server: Kestrel
+Content-Length: 2
+Content-Type: application/json; charset=utf-8
+ 
+2023-03-21 11:05:23.1976|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Start processing HTTP request POST http://localhost:48080/api/Album/SaveAlbum 
+2023-03-21 11:05:23.1976|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+Content-Type: application/json
+ 
+2023-03-21 11:05:23.1976|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Sending HTTP request POST http://localhost:48080/api/Album/SaveAlbum 
+2023-03-21 11:05:23.1976|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+Content-Type: application/json
+ 
+2023-03-21 11:05:23.4395|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Received HTTP response headers after 241.7203ms - 200 
+2023-03-21 11:05:23.4395|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 09:05:23 GMT
+Server: Kestrel
+Content-Length: 71
+Content-Type: application/json; charset=utf-8
+ 
+2023-03-21 11:05:23.4395|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|End processing HTTP request after 242.058ms - 200 
+2023-03-21 11:05:23.4395|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 09:05:23 GMT
+Server: Kestrel
+Content-Length: 71
+Content-Type: application/json; charset=utf-8
+ 
+2023-03-21 11:05:31.1140|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Start processing HTTP request POST http://localhost:48080/api/Album/SaveAlbum 
+2023-03-21 11:05:31.1140|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+Content-Type: application/json
+ 
+2023-03-21 11:05:31.1140|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Sending HTTP request POST http://localhost:48080/api/Album/SaveAlbum 
+2023-03-21 11:05:31.1140|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+Content-Type: application/json
+ 
+2023-03-21 11:05:31.1640|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Received HTTP response headers after 49.9106ms - 200 
+2023-03-21 11:05:31.1640|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 09:05:30 GMT
+Server: Kestrel
+Content-Length: 77
+Content-Type: application/json; charset=utf-8
+ 
+2023-03-21 11:05:31.1640|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|End processing HTTP request after 50.1239ms - 200 
+2023-03-21 11:05:31.1640|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 09:05:30 GMT
+Server: Kestrel
+Content-Length: 77
+Content-Type: application/json; charset=utf-8
+ 
+2023-03-21 11:05:32.6440|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Start processing HTTP request DELETE http://localhost:48080/api/Album/DeleteAlbum 
+2023-03-21 11:05:32.6440|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+Content-Type: application/json
+ 
+2023-03-21 11:05:32.6440|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Sending HTTP request DELETE http://localhost:48080/api/Album/DeleteAlbum 
+2023-03-21 11:05:32.6440|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+Content-Type: application/json
+ 
+2023-03-21 11:05:32.7451|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Received HTTP response headers after 101.0068ms - 200 
+2023-03-21 11:05:32.7451|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 09:05:32 GMT
+Server: Kestrel
+Content-Length: 4
+Content-Type: application/json; charset=utf-8
+ 
+2023-03-21 11:05:32.7451|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|End processing HTTP request after 101.2432ms - 200 
+2023-03-21 11:05:32.7451|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 09:05:32 GMT
+Server: Kestrel
+Content-Length: 4
+Content-Type: application/json; charset=utf-8
+ 
+2023-03-21 11:05:36.0509|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Start processing HTTP request POST http://localhost:48080/api/Album/SaveAlbum 
+2023-03-21 11:05:36.0509|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+Content-Type: application/json
+ 
+2023-03-21 11:05:36.0509|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Sending HTTP request POST http://localhost:48080/api/Album/SaveAlbum 
+2023-03-21 11:05:36.0509|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+Content-Type: application/json
+ 
+2023-03-21 11:05:36.0647|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Received HTTP response headers after 13.7283ms - 200 
+2023-03-21 11:05:36.0647|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 09:05:35 GMT
+Server: Kestrel
+Content-Length: 79
+Content-Type: application/json; charset=utf-8
+ 
+2023-03-21 11:05:36.0647|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|End processing HTTP request after 13.9413ms - 200 
+2023-03-21 11:05:36.0647|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 09:05:35 GMT
+Server: Kestrel
+Content-Length: 79
+Content-Type: application/json; charset=utf-8
+ 
+2023-03-21 11:05:37.8607|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Start processing HTTP request GET http://localhost:48080/api/Album/ListAlbums 
+2023-03-21 11:05:37.8607|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+ 
+2023-03-21 11:05:37.8607|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Sending HTTP request GET http://localhost:48080/api/Album/ListAlbums 
+2023-03-21 11:05:37.8607|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+ 
+2023-03-21 11:05:37.8689|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Received HTTP response headers after 8.0623ms - 200 
+2023-03-21 11:05:37.8689|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 09:05:37 GMT
+Server: Kestrel
+Content-Length: 81
+Content-Type: application/json; charset=utf-8
+ 
+2023-03-21 11:05:37.8689|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|End processing HTTP request after 8.3053ms - 200 
+2023-03-21 11:05:37.8689|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 09:05:37 GMT
+Server: Kestrel
+Content-Length: 81
+Content-Type: application/json; charset=utf-8
+ 
+2023-03-21 11:05:39.9711|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Start processing HTTP request GET http://localhost:48080/api/Album/ListAlbums 
+2023-03-21 11:05:39.9711|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+ 
+2023-03-21 11:05:39.9711|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Sending HTTP request GET http://localhost:48080/api/Album/ListAlbums 
+2023-03-21 11:05:39.9711|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+ 
+2023-03-21 11:05:39.9779|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Received HTTP response headers after 6.7261ms - 200 
+2023-03-21 11:05:39.9779|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 09:05:39 GMT
+Server: Kestrel
+Content-Length: 81
+Content-Type: application/json; charset=utf-8
+ 
+2023-03-21 11:05:39.9779|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|End processing HTTP request after 6.9031ms - 200 
+2023-03-21 11:05:39.9779|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 09:05:39 GMT
+Server: Kestrel
+Content-Length: 81
+Content-Type: application/json; charset=utf-8
+ 
+2023-03-21 11:05:41.3816|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Start processing HTTP request GET http://localhost:48080/api/Album/ListAlbums 
+2023-03-21 11:05:41.3816|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+ 
+2023-03-21 11:05:41.3816|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Sending HTTP request GET http://localhost:48080/api/Album/ListAlbums 
+2023-03-21 11:05:41.3816|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+ 
+2023-03-21 11:05:41.3875|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Received HTTP response headers after 5.7989ms - 200 
+2023-03-21 11:05:41.3875|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 09:05:40 GMT
+Server: Kestrel
+Content-Length: 81
+Content-Type: application/json; charset=utf-8
+ 
+2023-03-21 11:05:41.3875|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|End processing HTTP request after 5.9575ms - 200 
+2023-03-21 11:05:41.3875|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 09:05:40 GMT
+Server: Kestrel
+Content-Length: 81
+Content-Type: application/json; charset=utf-8
+ 
