@@ -17,6 +17,12 @@ namespace MusicGroup.WebUI.Server.Controllers
             return await AlbumApiClient.GetAlbumAsync(id);
         }
         
+        [HttpDelete("DeleteAlbum")]
+        public async Task<bool> DeleteAlbumAsync(Guid id)
+        {
+            return await AlbumApiClient.DeleteAlbumAsync(id);
+        }
+        
         [HttpGet("ListAlbums")]
         public async Task<Album[]> ListAlbumsAsync()
         {

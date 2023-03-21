@@ -24,6 +24,8 @@ namespace MusicGroup.Server.Services
         {
             AlbumDbEntity[] albums = await DbService.ListAlbumsAsync();
 
+            AlbumDbEntity[] items = FileDb.List<AlbumDbEntity>();
+            
             return albums.Transform();
         }
 
@@ -48,8 +50,17 @@ namespace MusicGroup.Server.Services
             }
 
             await DbService.SaveChangesAsync();
+
+            FileDb.Insert(album);
             
             return album.Transform();
+        }
+        
+        public async Task<bool> DeleteAlbumAsync(Guid id)
+        {
+            AlbumDbEntity album = await DbService.GetAlbumAsync(id);
+            
+            return await DbService.DeleteAlbumAsync(album);
         }
     }
 }

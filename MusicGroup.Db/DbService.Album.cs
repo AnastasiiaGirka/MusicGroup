@@ -28,6 +28,15 @@ namespace MusicGroup.Api.Db
 
             return album;
         }
+        
+        public async Task<bool> DeleteAlbumAsync(AlbumDbEntity album)
+        {
+            _context.Remove(album);
+
+            await _context.SaveChangesAsync();
+            
+            return true;
+        }
 
         public async Task<AlbumDbEntity?> FindAlbumAsync(Guid id)
         {

@@ -12,6 +12,10 @@ export class AlbumService {
 
   constructor(private http: HttpClient) { }
 
+  public deleteAlbum(id: string): Observable<boolean> {
+    return this.http.delete<boolean>(`${environment.apiUrl}/Album/DeleteAlbum`, { params: {id} });
+  }
+
   public getAlbum(id: string): Observable<Album>{
     return this.http.get<Album>(`${environment.apiUrl}/Album/GetAlbum`, { params: {id} });
   }
@@ -24,9 +28,5 @@ export class AlbumService {
   }
   public listAlbums(): Observable<Album[]>{
     return this.http.get<Album[]>(`${environment.apiUrl}/Album/ListAlbums`);
-  }
-
-  public removeAlbum(id: string): Observable<void>{
-    return this.http.post<void>(`${environment.apiUrl}/Album/RemoveAlbum`, id);
   }
 }

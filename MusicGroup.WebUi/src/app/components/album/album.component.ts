@@ -58,7 +58,15 @@ export class AlbumComponent implements OnInit {
   }
 
   removeAlbum(album: Album) {
-    this._albumService.removeAlbum(album.id);
+    this._albumService.deleteAlbum(album.id).subscribe(
+      (result: boolean) => {
+
+        if (result) {
+          const index: number = this.albums.indexOf(album);
+          this.albums.splice(index, 1);
+        }
+      }
+    );
   }
 
   resetForms() {

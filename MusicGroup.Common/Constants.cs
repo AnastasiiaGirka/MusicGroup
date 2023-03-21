@@ -33,5 +33,10 @@ public static class Constants
         /// "1024"
         /// </summary>
         public const int DescriptionLength = 1024;
+
+        /// <summary>
+        /// "FileDbFolder"
+        /// </summary>
+        public const string FileDbDirectory = "/Users/oleksandrnefodov/Documents/DB";
     }
 }

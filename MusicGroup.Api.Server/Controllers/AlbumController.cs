@@ -39,5 +39,13 @@ namespace MusicGroup.Server.Controllers
         {
             return await _albumService.SaveAlbumAsync(requests);
         }
+        
+        [HttpDelete]
+        [Route("DeleteAlbum")]
+        [ProducesResponseType(200, Type = typeof(bool))]
+        public async Task<bool> DeleteAlbumAsync([FromBody] Guid id)
+        {
+            return await _albumService.DeleteAlbumAsync(id);
+        }
     }
 }

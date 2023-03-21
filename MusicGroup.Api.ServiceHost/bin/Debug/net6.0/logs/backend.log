@@ -1,76 +1,42 @@
-2023-03-20 08:22:15.6895|INFO|MusicGroup.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 08:22:17.1513|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 08:24:03.1038|INFO|MusicGroup.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 08:24:04.4451|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 08:25:14.0892|INFO|MusicGroup.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 08:25:15.2844|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 08:26:03.7257|INFO|MusicGroup.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 08:26:05.0206|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 08:29:50.8894|INFO|MusicGroup.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 08:29:52.1770|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 08:30:54.2324|INFO|MusicGroup.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 08:30:55.4420|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 08:31:52.5620|INFO|MusicGroup.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 08:31:53.8071|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 08:36:39.9837|INFO|MusicGroup.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 08:36:41.2818|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 08:39:12.8659|INFO|MusicGroup.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 08:39:14.0900|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 08:41:21.2873|INFO|MusicGroup.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 08:41:22.5311|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 08:42:27.1852|INFO|MusicGroup.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 08:42:28.4857|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 17:23:09.2063|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 17:23:09.5944|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 18:57:53.4127|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 18:57:55.1262|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 18:59:00.8966|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 18:59:02.2940|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 19:01:11.7382|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 19:01:13.2062|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 19:01:24.7517|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 19:01:26.0938|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 19:03:03.6524|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 19:03:05.1521|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 19:05:34.0924|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 19:05:35.7331|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 19:12:22.2920|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 19:12:24.0012|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 19:14:44.0836|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 19:14:45.4955|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 19:21:46.6489|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 19:21:48.0959|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 19:25:18.0064|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 19:25:19.4617|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 19:29:43.1597|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 19:29:44.5786|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 19:31:44.7989|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 19:31:46.2505|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 19:33:33.8865|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 19:33:35.3215|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 19:35:48.3547|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 19:35:49.8197|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 19:40:00.2265|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 19:40:01.8675|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 20:09:26.7296|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 20:09:28.2457|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 20:12:03.2926|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 20:12:04.7723|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 20:35:12.5541|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 20:35:12.8410|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 21:34:11.0783|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 21:34:12.6797|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 21:35:42.3845|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 21:35:42.6661|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 21:37:32.4213|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 21:37:33.9111|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 21:40:58.3137|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 21:40:58.6599|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 21:45:36.3077|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 21:45:37.7787|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 21:48:38.1256|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 21:48:39.6061|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 21:50:15.1719|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 21:50:15.4618|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
-2023-03-20 21:52:48.2518|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
-2023-03-20 21:52:48.6105|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 00:13:24.7749|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 00:13:25.0471|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 00:14:18.5157|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 00:14:19.8927|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 00:18:18.9649|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 00:18:20.4074|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 00:20:16.6159|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 00:20:16.9220|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 00:20:17.1287|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 00:20:18.7219|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 00:20:33.9549|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 00:20:34.2255|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 09:33:08.4415|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 09:33:09.0413|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 09:33:33.4874|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 09:33:33.9458|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 09:49:52.5588|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 09:49:55.0282|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 09:51:24.0554|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 09:51:26.4404|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 09:52:16.7822|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 09:52:18.8770|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 09:55:25.8866|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 09:55:27.7502|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 09:56:50.7209|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 09:56:52.5818|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 10:07:06.0284|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 10:07:06.4340|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 10:15:20.5617|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 10:15:22.5944|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 10:22:36.7526|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 10:22:38.7647|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 10:24:41.5542|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 10:24:43.7007|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 10:31:12.3680|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 10:31:14.3418|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 10:32:56.5004|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 10:32:59.0385|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 10:40:52.9366|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 10:40:54.9053|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 10:44:41.4480|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 10:44:43.3430|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 

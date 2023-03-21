@@ -4,6 +4,7 @@ using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.OpenApi.Models;
 using MusicGroup.Api.Db;
 using MusicGroup.Api.Db.Context;
+using MusicGroup.Api.Db.FileDb;
 using MusicGroup.Common;
 using MusicGroup.Server.Services;
 using Newtonsoft.Json.Linq;
@@ -74,6 +75,7 @@ public class Startup
             ));
 
         services.AddScoped<DbService>();
+        services.AddScoped<FileDb>();
     }
 
     private static void AddServices(IServiceCollection services)
