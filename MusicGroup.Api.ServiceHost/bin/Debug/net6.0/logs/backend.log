@@ -40,3 +40,11 @@
 2023-03-21 10:40:54.9053|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
 2023-03-21 10:44:41.4480|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
 2023-03-21 10:44:43.3430|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 10:58:07.7697|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 10:58:08.0963|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 10:59:00.6447|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 10:59:02.4166|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 11:00:46.9225|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 11:00:47.2120|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 11:01:55.1335|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 11:01:56.7553|INFO|MusicGroup.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup Api.ServiceHost on "Oleksandrs-MacBook-Pro" initialized. 

@@ -9,7 +9,7 @@ public class FileDb
     private readonly string _directory;
     public FileDb()
     {
-        _directory = Constants.Db.FileDbDirectory;
+        _directory = $"{AppDomain.CurrentDomain.BaseDirectory}/FileDbStorage";    
         
         Initialize();
     }

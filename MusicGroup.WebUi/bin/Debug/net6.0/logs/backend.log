@@ -2975,3 +2975,543 @@ Accept: application/json
    at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
    at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
    at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-03-21 10:58:13.1917|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 10:58:13.6279|INFO|MusicGroup.WebUi.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup WebUI on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 10:58:25.6500|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Start processing HTTP request GET http://localhost:48080/api/Album/ListAlbums 
+2023-03-21 10:58:25.6573|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+ 
+2023-03-21 10:58:25.6576|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Sending HTTP request GET http://localhost:48080/api/Album/ListAlbums 
+2023-03-21 10:58:25.6576|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+ 
+2023-03-21 10:58:26.6114|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Received HTTP response headers after 951.769ms - 500 
+2023-03-21 10:58:26.6115|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 08:58:26 GMT
+Server: Kestrel
+Content-Length: 0
+ 
+2023-03-21 10:58:26.6115|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|End processing HTTP request after 967.3247ms - 500 
+2023-03-21 10:58:26.6115|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 08:58:26 GMT
+Server: Kestrel
+Content-Length: 0
+ 
+2023-03-21 10:58:26.6198|ERROR|MusicGroup.WebUI.Server.Middlewares.ApiExceptionMiddleware|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|ApiExceptionMiddleware. The HTTP status code of the response was not expected (500).
+
+Status: 500
+Response: 
+ HTTP Response: 
+
+
+
+MusicGroup.Common.Models.SwaggerException: The HTTP status code of the response was not expected (500).
+
+Status: 500
+Response: 
+
+   at MusicGroup.Common.Models.AlbumApiClient.ListAlbumsAsync(CancellationToken cancellationToken) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.Api.ServiceHost/ApiClients.cs:line 178
+   at MusicGroup.WebUI.Server.Controllers.AlbumController.ListAlbumsAsync() in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.WebUI.Server/Controllers/AlbumController.cs:line 29
+   at lambda_method4(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at MusicGroup.WebUI.Server.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.WebUI.Server/Middlewares/ApiExceptionMiddleware.cs:line 27
+   at MusicGroup.WebUI.Server.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.WebUI.Server/Middlewares/ApiExceptionMiddleware.cs:line 37
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-03-21 10:58:28.0401|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Start processing HTTP request POST http://localhost:48080/api/Album/SaveAlbum 
+2023-03-21 10:58:28.0401|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+Content-Type: application/json
+ 
+2023-03-21 10:58:28.0401|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Sending HTTP request POST http://localhost:48080/api/Album/SaveAlbum 
+2023-03-21 10:58:28.0401|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+Content-Type: application/json
+ 
+2023-03-21 10:58:28.2538|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Received HTTP response headers after 213.6001ms - 500 
+2023-03-21 10:58:28.2538|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 08:58:28 GMT
+Server: Kestrel
+Content-Length: 0
+ 
+2023-03-21 10:58:28.2538|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|End processing HTTP request after 213.8094ms - 500 
+2023-03-21 10:58:28.2538|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 08:58:28 GMT
+Server: Kestrel
+Content-Length: 0
+ 
+2023-03-21 10:58:28.2549|ERROR|MusicGroup.WebUI.Server.Middlewares.ApiExceptionMiddleware|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|ApiExceptionMiddleware. The HTTP status code of the response was not expected (500).
+
+Status: 500
+Response: 
+ HTTP Response: 
+
+
+
+MusicGroup.Common.Models.SwaggerException: The HTTP status code of the response was not expected (500).
+
+Status: 500
+Response: 
+
+   at MusicGroup.Common.Models.AlbumApiClient.SaveAlbumAsync(SaveAlbumRequest requests, CancellationToken cancellationToken) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.Api.ServiceHost/ApiClients.cs:line 253
+   at MusicGroup.WebUI.Server.Controllers.AlbumController.SaveAlbumAsync(SaveAlbumRequest request) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.WebUI.Server/Controllers/AlbumController.cs:line 37
+   at lambda_method13(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at MusicGroup.WebUI.Server.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.WebUI.Server/Middlewares/ApiExceptionMiddleware.cs:line 27
+2023-03-21 10:58:28.2549|ERROR|MusicGroup.WebUI.Server.Middlewares.ApiExceptionMiddleware|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Error occured. RequestId="0HMP9T9JQS2PU:00000008". Url="/fe/api/Album/SaveAlbum". Message="The HTTP status code of the response was not expected (500).
+
+Status: 500
+Response: 
+". HTTP Response: 
+
+
+
+MusicGroup.Common.Models.SwaggerException: The HTTP status code of the response was not expected (500).
+
+Status: 500
+Response: 
+
+   at MusicGroup.Common.Models.AlbumApiClient.SaveAlbumAsync(SaveAlbumRequest requests, CancellationToken cancellationToken) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.Api.ServiceHost/ApiClients.cs:line 253
+   at MusicGroup.WebUI.Server.Controllers.AlbumController.SaveAlbumAsync(SaveAlbumRequest request) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.WebUI.Server/Controllers/AlbumController.cs:line 37
+   at lambda_method13(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at MusicGroup.WebUI.Server.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.WebUI.Server/Middlewares/ApiExceptionMiddleware.cs:line 27
+2023-03-21 10:58:31.1143|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Start processing HTTP request POST http://localhost:48080/api/Album/SaveAlbum 
+2023-03-21 10:58:31.1143|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+Content-Type: application/json
+ 
+2023-03-21 10:58:31.1143|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Sending HTTP request POST http://localhost:48080/api/Album/SaveAlbum 
+2023-03-21 10:58:31.1143|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+Content-Type: application/json
+ 
+2023-03-21 10:58:31.1569|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Received HTTP response headers after 42.5375ms - 500 
+2023-03-21 10:58:31.1569|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 08:58:31 GMT
+Server: Kestrel
+Content-Length: 0
+ 
+2023-03-21 10:58:31.1569|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|End processing HTTP request after 42.7129ms - 500 
+2023-03-21 10:58:31.1569|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 08:58:31 GMT
+Server: Kestrel
+Content-Length: 0
+ 
+2023-03-21 10:58:31.1576|ERROR|MusicGroup.WebUI.Server.Middlewares.ApiExceptionMiddleware|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|ApiExceptionMiddleware. The HTTP status code of the response was not expected (500).
+
+Status: 500
+Response: 
+ HTTP Response: 
+
+
+
+MusicGroup.Common.Models.SwaggerException: The HTTP status code of the response was not expected (500).
+
+Status: 500
+Response: 
+
+   at MusicGroup.Common.Models.AlbumApiClient.SaveAlbumAsync(SaveAlbumRequest requests, CancellationToken cancellationToken) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.Api.ServiceHost/ApiClients.cs:line 253
+   at MusicGroup.WebUI.Server.Controllers.AlbumController.SaveAlbumAsync(SaveAlbumRequest request) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.WebUI.Server/Controllers/AlbumController.cs:line 37
+   at lambda_method13(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at MusicGroup.WebUI.Server.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.WebUI.Server/Middlewares/ApiExceptionMiddleware.cs:line 27
+2023-03-21 10:58:31.1576|ERROR|MusicGroup.WebUI.Server.Middlewares.ApiExceptionMiddleware|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Error occured. RequestId="0HMP9T9JQS2PU:00000009". Url="/fe/api/Album/SaveAlbum". Message="The HTTP status code of the response was not expected (500).
+
+Status: 500
+Response: 
+". HTTP Response: 
+
+
+
+MusicGroup.Common.Models.SwaggerException: The HTTP status code of the response was not expected (500).
+
+Status: 500
+Response: 
+
+   at MusicGroup.Common.Models.AlbumApiClient.SaveAlbumAsync(SaveAlbumRequest requests, CancellationToken cancellationToken) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.Api.ServiceHost/ApiClients.cs:line 253
+   at MusicGroup.WebUI.Server.Controllers.AlbumController.SaveAlbumAsync(SaveAlbumRequest request) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.WebUI.Server/Controllers/AlbumController.cs:line 37
+   at lambda_method13(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at MusicGroup.WebUI.Server.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.WebUI.Server/Middlewares/ApiExceptionMiddleware.cs:line 27
+2023-03-21 10:59:03.4212|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 10:59:05.7168|INFO|MusicGroup.WebUi.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup WebUI on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 10:59:22.7028|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Start processing HTTP request GET http://localhost:48080/api/Album/ListAlbums 
+2023-03-21 10:59:22.7114|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+ 
+2023-03-21 10:59:22.7114|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Sending HTTP request GET http://localhost:48080/api/Album/ListAlbums 
+2023-03-21 10:59:22.7114|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+ 
+2023-03-21 10:59:47.6809|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Received HTTP response headers after 24965.4128ms - 200 
+2023-03-21 10:59:47.6809|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 08:59:47 GMT
+Server: Kestrel
+Content-Length: 2
+Content-Type: application/json; charset=utf-8
+ 
+2023-03-21 10:59:47.6820|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|End processing HTTP request after 24983.89ms - 200 
+2023-03-21 10:59:47.6820|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 08:59:47 GMT
+Server: Kestrel
+Content-Length: 2
+Content-Type: application/json; charset=utf-8
+ 
+2023-03-21 11:00:48.4646|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 11:00:49.1097|INFO|MusicGroup.WebUi.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup WebUI on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 11:01:04.4779|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Start processing HTTP request GET http://localhost:48080/api/Album/ListAlbums 
+2023-03-21 11:01:04.4867|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+ 
+2023-03-21 11:01:04.4871|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Sending HTTP request GET http://localhost:48080/api/Album/ListAlbums 
+2023-03-21 11:01:04.4871|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+ 
+2023-03-21 11:01:05.6119|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Received HTTP response headers after 1122.4149ms - 500 
+2023-03-21 11:01:05.6119|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 09:01:05 GMT
+Server: Kestrel
+Content-Length: 0
+ 
+2023-03-21 11:01:05.6119|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|End processing HTTP request after 1141.3729ms - 500 
+2023-03-21 11:01:05.6119|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 09:01:05 GMT
+Server: Kestrel
+Content-Length: 0
+ 
+2023-03-21 11:01:05.6211|ERROR|MusicGroup.WebUI.Server.Middlewares.ApiExceptionMiddleware|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|ApiExceptionMiddleware. The HTTP status code of the response was not expected (500).
+
+Status: 500
+Response: 
+ HTTP Response: 
+
+
+
+MusicGroup.Common.Models.SwaggerException: The HTTP status code of the response was not expected (500).
+
+Status: 500
+Response: 
+
+   at MusicGroup.Common.Models.AlbumApiClient.ListAlbumsAsync(CancellationToken cancellationToken) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.Api.ServiceHost/ApiClients.cs:line 178
+   at MusicGroup.WebUI.Server.Controllers.AlbumController.ListAlbumsAsync() in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.WebUI.Server/Controllers/AlbumController.cs:line 29
+   at lambda_method4(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at MusicGroup.WebUI.Server.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.WebUI.Server/Middlewares/ApiExceptionMiddleware.cs:line 27
+   at MusicGroup.WebUI.Server.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.WebUI.Server/Middlewares/ApiExceptionMiddleware.cs:line 37
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-03-21 11:01:06.6559|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Start processing HTTP request POST http://localhost:48080/api/Album/SaveAlbum 
+2023-03-21 11:01:06.6559|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+Content-Type: application/json
+ 
+2023-03-21 11:01:06.6559|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Sending HTTP request POST http://localhost:48080/api/Album/SaveAlbum 
+2023-03-21 11:01:06.6560|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+Content-Type: application/json
+ 
+2023-03-21 11:01:06.9167|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Received HTTP response headers after 260.7039ms - 500 
+2023-03-21 11:01:06.9167|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 09:01:06 GMT
+Server: Kestrel
+Content-Length: 0
+ 
+2023-03-21 11:01:06.9167|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|End processing HTTP request after 260.9419ms - 500 
+2023-03-21 11:01:06.9167|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 09:01:06 GMT
+Server: Kestrel
+Content-Length: 0
+ 
+2023-03-21 11:01:06.9180|ERROR|MusicGroup.WebUI.Server.Middlewares.ApiExceptionMiddleware|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|ApiExceptionMiddleware. The HTTP status code of the response was not expected (500).
+
+Status: 500
+Response: 
+ HTTP Response: 
+
+
+
+MusicGroup.Common.Models.SwaggerException: The HTTP status code of the response was not expected (500).
+
+Status: 500
+Response: 
+
+   at MusicGroup.Common.Models.AlbumApiClient.SaveAlbumAsync(SaveAlbumRequest requests, CancellationToken cancellationToken) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.Api.ServiceHost/ApiClients.cs:line 253
+   at MusicGroup.WebUI.Server.Controllers.AlbumController.SaveAlbumAsync(SaveAlbumRequest request) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.WebUI.Server/Controllers/AlbumController.cs:line 37
+   at lambda_method13(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at MusicGroup.WebUI.Server.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.WebUI.Server/Middlewares/ApiExceptionMiddleware.cs:line 27
+2023-03-21 11:01:06.9180|ERROR|MusicGroup.WebUI.Server.Middlewares.ApiExceptionMiddleware|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Error occured. RequestId="0HMP9TB23L30K:00000007". Url="/fe/api/Album/SaveAlbum". Message="The HTTP status code of the response was not expected (500).
+
+Status: 500
+Response: 
+". HTTP Response: 
+
+
+
+MusicGroup.Common.Models.SwaggerException: The HTTP status code of the response was not expected (500).
+
+Status: 500
+Response: 
+
+   at MusicGroup.Common.Models.AlbumApiClient.SaveAlbumAsync(SaveAlbumRequest requests, CancellationToken cancellationToken) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.Api.ServiceHost/ApiClients.cs:line 253
+   at MusicGroup.WebUI.Server.Controllers.AlbumController.SaveAlbumAsync(SaveAlbumRequest request) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.WebUI.Server/Controllers/AlbumController.cs:line 37
+   at lambda_method13(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at MusicGroup.WebUI.Server.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.WebUI.Server/Middlewares/ApiExceptionMiddleware.cs:line 27
+2023-03-21 11:01:26.6005|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Start processing HTTP request POST http://localhost:48080/api/Album/SaveAlbum 
+2023-03-21 11:01:26.6005|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+Content-Type: application/json
+ 
+2023-03-21 11:01:26.6005|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Sending HTTP request POST http://localhost:48080/api/Album/SaveAlbum 
+2023-03-21 11:01:26.6005|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+Content-Type: application/json
+ 
+2023-03-21 11:01:26.6471|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Received HTTP response headers after 46.5071ms - 500 
+2023-03-21 11:01:26.6471|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 09:01:26 GMT
+Server: Kestrel
+Content-Length: 0
+ 
+2023-03-21 11:01:26.6471|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|End processing HTTP request after 46.6957ms - 500 
+2023-03-21 11:01:26.6471|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 09:01:26 GMT
+Server: Kestrel
+Content-Length: 0
+ 
+2023-03-21 11:01:26.6479|ERROR|MusicGroup.WebUI.Server.Middlewares.ApiExceptionMiddleware|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|ApiExceptionMiddleware. The HTTP status code of the response was not expected (500).
+
+Status: 500
+Response: 
+ HTTP Response: 
+
+
+
+MusicGroup.Common.Models.SwaggerException: The HTTP status code of the response was not expected (500).
+
+Status: 500
+Response: 
+
+   at MusicGroup.Common.Models.AlbumApiClient.SaveAlbumAsync(SaveAlbumRequest requests, CancellationToken cancellationToken) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.Api.ServiceHost/ApiClients.cs:line 253
+   at MusicGroup.WebUI.Server.Controllers.AlbumController.SaveAlbumAsync(SaveAlbumRequest request) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.WebUI.Server/Controllers/AlbumController.cs:line 37
+   at lambda_method13(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at MusicGroup.WebUI.Server.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.WebUI.Server/Middlewares/ApiExceptionMiddleware.cs:line 27
+2023-03-21 11:01:26.6479|ERROR|MusicGroup.WebUI.Server.Middlewares.ApiExceptionMiddleware|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Error occured. RequestId="0HMP9TB23L30K:00000008". Url="/fe/api/Album/SaveAlbum". Message="The HTTP status code of the response was not expected (500).
+
+Status: 500
+Response: 
+". HTTP Response: 
+
+
+
+MusicGroup.Common.Models.SwaggerException: The HTTP status code of the response was not expected (500).
+
+Status: 500
+Response: 
+
+   at MusicGroup.Common.Models.AlbumApiClient.SaveAlbumAsync(SaveAlbumRequest requests, CancellationToken cancellationToken) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.Api.ServiceHost/ApiClients.cs:line 253
+   at MusicGroup.WebUI.Server.Controllers.AlbumController.SaveAlbumAsync(SaveAlbumRequest request) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.WebUI.Server/Controllers/AlbumController.cs:line 37
+   at lambda_method13(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at MusicGroup.WebUI.Server.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in /Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.WebUI.Server/Middlewares/ApiExceptionMiddleware.cs:line 27
+2023-03-21 11:01:57.8995|INFO|MusicGroup.Common.Helpers.ProgramHelper|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Program started. Web="True". Environment="Development". 
+2023-03-21 11:02:00.1132|INFO|MusicGroup.WebUi.Startup|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Startup WebUI on "Oleksandrs-MacBook-Pro" initialized. 
+2023-03-21 11:02:15.0097|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Start processing HTTP request GET http://localhost:48080/api/Album/ListAlbums 
+2023-03-21 11:02:15.0191|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+ 
+2023-03-21 11:02:15.0191|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Sending HTTP request GET http://localhost:48080/api/Album/ListAlbums 
+2023-03-21 11:02:15.0191|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+ 
+2023-03-21 11:02:24.0694|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Received HTTP response headers after 9046.002ms - 200 
+2023-03-21 11:02:24.0694|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 09:02:23 GMT
+Server: Kestrel
+Content-Length: 2
+Content-Type: application/json; charset=utf-8
+ 
+2023-03-21 11:02:24.0707|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|End processing HTTP request after 9066.2952ms - 200 
+2023-03-21 11:02:24.0707|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 09:02:23 GMT
+Server: Kestrel
+Content-Length: 2
+Content-Type: application/json; charset=utf-8
+ 
+2023-03-21 11:02:26.4825|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Start processing HTTP request POST http://localhost:48080/api/Album/SaveAlbum 
+2023-03-21 11:02:26.4825|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+Content-Type: application/json
+ 
+2023-03-21 11:02:26.4825|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Sending HTTP request POST http://localhost:48080/api/Album/SaveAlbum 
+2023-03-21 11:02:26.4825|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+Content-Type: application/json
+ 
+2023-03-21 11:02:38.8234|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Received HTTP response headers after 12340.344ms - 200 
+2023-03-21 11:02:38.8234|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 09:02:38 GMT
+Server: Kestrel
+Content-Length: 71
+Content-Type: application/json; charset=utf-8
+ 
+2023-03-21 11:02:38.8234|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|End processing HTTP request after 12340.7056ms - 200 
+2023-03-21 11:02:38.8234|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 09:02:38 GMT
+Server: Kestrel
+Content-Length: 71
+Content-Type: application/json; charset=utf-8
+ 
+2023-03-21 11:02:53.8308|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Start processing HTTP request POST http://localhost:48080/api/Album/SaveAlbum 
+2023-03-21 11:02:53.8308|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+Content-Type: application/json
+ 
+2023-03-21 11:02:53.8308|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Sending HTTP request POST http://localhost:48080/api/Album/SaveAlbum 
+2023-03-21 11:02:53.8308|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Request Headers:
+Accept: application/json
+Content-Type: application/json
+ 
+2023-03-21 11:03:04.0890|INFO|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Received HTTP response headers after 10257.869ms - 200 
+2023-03-21 11:03:04.0890|TRACE|System.Net.Http.HttpClient.AlbumApiClient.ClientHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 09:03:03 GMT
+Server: Kestrel
+Content-Length: 74
+Content-Type: application/json; charset=utf-8
+ 
+2023-03-21 11:03:04.0890|INFO|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|End processing HTTP request after 10258.0597ms - 200 
+2023-03-21 11:03:04.0890|TRACE|System.Net.Http.HttpClient.AlbumApiClient.LogicalHandler|#nlog:|#browserid:|#sessionid:|#country:|#language:|#username:|#useragent:|Response Headers:
+Date: Tue, 21 Mar 2023 09:03:03 GMT
+Server: Kestrel
+Content-Length: 74
+Content-Type: application/json; charset=utf-8
+ 

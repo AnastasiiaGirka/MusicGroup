@@ -5,102 +5,8 @@
     <projectFile profileName="MusicGroup.WebUi">MusicGroup.WebUi/MusicGroup.WebUi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9da4c82e-9d76-45c9-a329-a60111d3e1fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/AlbumDbEntity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/bin/Debug/net6.0/logs/backend.2023-03-20-23-59.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MusicGroup.Db/FileDb/FileDb.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/logs/backend.2023-03-20-23-59.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MusicGroup/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MusicGroup/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.Server/Controllers/AlbumController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.Server/Controllers/AlbumController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.Server/Services/AlbumService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.Server/Services/AlbumService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.Server/Services/BaseService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.Server/Services/BaseService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.Server/bin/Debug/net6.0/MusicGroup.Api.Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.Server/bin/Debug/net6.0/MusicGroup.Api.Server.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.Server/bin/Debug/net6.0/MusicGroup.Api.Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.Server/bin/Debug/net6.0/MusicGroup.Api.Server.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.Server/bin/Debug/net6.0/MusicGroup.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.Server/bin/Debug/net6.0/MusicGroup.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.Server/bin/Debug/net6.0/MusicGroup.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.Server/bin/Debug/net6.0/MusicGroup.Common.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.Server/bin/Debug/net6.0/MusicGroup.Db.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.Server/bin/Debug/net6.0/MusicGroup.Db.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.Server/bin/Debug/net6.0/MusicGroup.Db.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.Server/bin/Debug/net6.0/MusicGroup.Db.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.Server/bin/Debug/net6.0/publish/MusicGroup.Api.Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.Server/bin/Debug/net6.0/publish/MusicGroup.Api.Server.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.Server/bin/Debug/net6.0/publish/MusicGroup.Api.Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.Server/bin/Debug/net6.0/publish/MusicGroup.Api.Server.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.Server/bin/Debug/net6.0/publish/MusicGroup.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.Server/bin/Debug/net6.0/publish/MusicGroup.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.Server/bin/Debug/net6.0/publish/MusicGroup.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.Server/bin/Debug/net6.0/publish/MusicGroup.Common.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.Server/bin/Debug/net6.0/publish/MusicGroup.Db.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.Server/bin/Debug/net6.0/publish/MusicGroup.Db.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.Server/bin/Debug/net6.0/publish/MusicGroup.Db.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.Server/bin/Debug/net6.0/publish/MusicGroup.Db.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.Server/obj/Debug/net6.0/MusicGroup.Api.Server.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.Server/obj/Debug/net6.0/MusicGroup.Api.Server.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.Server/obj/Debug/net6.0/MusicGroup.Api.Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.Server/obj/Debug/net6.0/MusicGroup.Api.Server.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.Server/obj/Debug/net6.0/MusicGroup.Api.Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.Server/obj/Debug/net6.0/MusicGroup.Api.Server.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.Server/obj/Debug/net6.0/ref/MusicGroup.Api.Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.Server/obj/Debug/net6.0/ref/MusicGroup.Api.Server.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.Server/obj/Debug/net6.0/refint/MusicGroup.Api.Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.Server/obj/Debug/net6.0/refint/MusicGroup.Api.Server.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/ApiClients.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/ApiClients.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/bin/Debug/net6.0/MusicGroup.Api.Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/bin/Debug/net6.0/MusicGroup.Api.Server.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/bin/Debug/net6.0/MusicGroup.Api.Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/bin/Debug/net6.0/MusicGroup.Api.Server.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/bin/Debug/net6.0/MusicGroup.Api.ServiceHost.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/bin/Debug/net6.0/MusicGroup.Api.ServiceHost.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/bin/Debug/net6.0/MusicGroup.Api.ServiceHost.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/bin/Debug/net6.0/MusicGroup.Api.ServiceHost.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/bin/Debug/net6.0/MusicGroup.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/bin/Debug/net6.0/MusicGroup.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/bin/Debug/net6.0/MusicGroup.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/bin/Debug/net6.0/MusicGroup.Common.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/bin/Debug/net6.0/MusicGroup.Db.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/bin/Debug/net6.0/MusicGroup.Db.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/bin/Debug/net6.0/MusicGroup.Db.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/bin/Debug/net6.0/MusicGroup.Db.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/bin/Debug/net6.0/logs/backend.log" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/bin/Debug/net6.0/logs/backend.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/obj/Debug/net6.0/MusicGroup.Api.ServiceHost.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/obj/Debug/net6.0/MusicGroup.Api.ServiceHost.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/obj/Debug/net6.0/MusicGroup.Api.ServiceHost.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/obj/Debug/net6.0/MusicGroup.Api.ServiceHost.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/obj/Debug/net6.0/MusicGroup.Api.ServiceHost.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/obj/Debug/net6.0/MusicGroup.Api.ServiceHost.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/obj/Debug/net6.0/ref/MusicGroup.Api.ServiceHost.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/obj/Debug/net6.0/ref/MusicGroup.Api.ServiceHost.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/obj/Debug/net6.0/refint/MusicGroup.Api.ServiceHost.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/obj/Debug/net6.0/refint/MusicGroup.Api.ServiceHost.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Api.ServiceHost/obj/staticwebassets.pack.sentinel" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Common/Constants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Common/Constants.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Common/bin/Debug/net6.0/MusicGroup.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Common/bin/Debug/net6.0/MusicGroup.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Common/bin/Debug/net6.0/MusicGroup.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Common/bin/Debug/net6.0/MusicGroup.Common.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Common/obj/Debug/net6.0/MusicGroup.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Common/obj/Debug/net6.0/MusicGroup.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Common/obj/Debug/net6.0/MusicGroup.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Common/obj/Debug/net6.0/MusicGroup.Common.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Common/obj/Debug/net6.0/ref/MusicGroup.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Common/obj/Debug/net6.0/ref/MusicGroup.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Common/obj/Debug/net6.0/refint/MusicGroup.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Common/obj/Debug/net6.0/refint/MusicGroup.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Db/DbService.Album.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Db/DbService.Album.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Db/bin/Debug/net6.0/MusicGroup.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Db/bin/Debug/net6.0/MusicGroup.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Db/bin/Debug/net6.0/MusicGroup.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Db/bin/Debug/net6.0/MusicGroup.Common.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Db/bin/Debug/net6.0/MusicGroup.Db.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Db/bin/Debug/net6.0/MusicGroup.Db.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Db/bin/Debug/net6.0/MusicGroup.Db.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Db/bin/Debug/net6.0/MusicGroup.Db.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Db/obj/Debug/net6.0/MusicGroup.Db.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Db/obj/Debug/net6.0/MusicGroup.Db.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Db/obj/Debug/net6.0/MusicGroup.Db.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Db/obj/Debug/net6.0/MusicGroup.Db.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Db/obj/Debug/net6.0/MusicGroup.Db.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Db/obj/Debug/net6.0/MusicGroup.Db.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Db/obj/Debug/net6.0/MusicGroup.Db.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Db/obj/Debug/net6.0/MusicGroup.Db.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Db/obj/Debug/net6.0/ref/MusicGroup.Db.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Db/obj/Debug/net6.0/ref/MusicGroup.Db.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.Db/obj/Debug/net6.0/refint/MusicGroup.Db.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Db/obj/Debug/net6.0/refint/MusicGroup.Db.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUI.Server/Controllers/AlbumController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUI.Server/Controllers/AlbumController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUI.Server/bin/Debug/net6.0/MusicGroup.Api.Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUI.Server/bin/Debug/net6.0/MusicGroup.Api.Server.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUI.Server/bin/Debug/net6.0/MusicGroup.Api.Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUI.Server/bin/Debug/net6.0/MusicGroup.Api.Server.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUI.Server/bin/Debug/net6.0/MusicGroup.Api.ServiceHost.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUI.Server/bin/Debug/net6.0/MusicGroup.Api.ServiceHost.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUI.Server/bin/Debug/net6.0/MusicGroup.Api.ServiceHost.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUI.Server/bin/Debug/net6.0/MusicGroup.Api.ServiceHost.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUI.Server/bin/Debug/net6.0/MusicGroup.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUI.Server/bin/Debug/net6.0/MusicGroup.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUI.Server/bin/Debug/net6.0/MusicGroup.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUI.Server/bin/Debug/net6.0/MusicGroup.Common.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUI.Server/bin/Debug/net6.0/MusicGroup.Db.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUI.Server/bin/Debug/net6.0/MusicGroup.Db.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUI.Server/bin/Debug/net6.0/MusicGroup.Db.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUI.Server/bin/Debug/net6.0/MusicGroup.Db.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUI.Server/bin/Debug/net6.0/MusicGroup.WebUI.Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUI.Server/bin/Debug/net6.0/MusicGroup.WebUI.Server.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUI.Server/bin/Debug/net6.0/MusicGroup.WebUI.Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUI.Server/bin/Debug/net6.0/MusicGroup.WebUI.Server.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUI.Server/obj/Debug/net6.0/MusicGroup.WebUI.Server.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUI.Server/obj/Debug/net6.0/MusicGroup.WebUI.Server.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUI.Server/obj/Debug/net6.0/MusicGroup.WebUI.Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUI.Server/obj/Debug/net6.0/MusicGroup.WebUI.Server.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUI.Server/obj/Debug/net6.0/MusicGroup.WebUI.Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUI.Server/obj/Debug/net6.0/MusicGroup.WebUI.Server.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUI.Server/obj/Debug/net6.0/ref/MusicGroup.WebUI.Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUI.Server/obj/Debug/net6.0/ref/MusicGroup.WebUI.Server.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUI.Server/obj/Debug/net6.0/refint/MusicGroup.WebUI.Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUI.Server/obj/Debug/net6.0/refint/MusicGroup.WebUI.Server.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/MusicGroup.Api.Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/MusicGroup.Api.Server.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/MusicGroup.Api.Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/MusicGroup.Api.Server.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/MusicGroup.Api.ServiceHost.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/MusicGroup.Api.ServiceHost.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/MusicGroup.Api.ServiceHost.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/MusicGroup.Api.ServiceHost.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/MusicGroup.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/MusicGroup.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/MusicGroup.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/MusicGroup.Common.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/MusicGroup.Db.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/MusicGroup.Db.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/MusicGroup.Db.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/MusicGroup.Db.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/MusicGroup.WebUI.Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/MusicGroup.WebUI.Server.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/MusicGroup.WebUI.Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/MusicGroup.WebUI.Server.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/MusicGroup.WebUi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/MusicGroup.WebUi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/MusicGroup.WebUi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/MusicGroup.WebUi.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/logs/backend.log" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUi/bin/Debug/net6.0/logs/backend.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUi/obj/Debug/net6.0/MusicGroup.WebUi.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUi/obj/Debug/net6.0/MusicGroup.WebUi.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUi/obj/Debug/net6.0/MusicGroup.WebUi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUi/obj/Debug/net6.0/MusicGroup.WebUi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUi/obj/Debug/net6.0/MusicGroup.WebUi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUi/obj/Debug/net6.0/MusicGroup.WebUi.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUi/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUi/obj/staticwebassets.pack.sentinel" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUi/src/app/components/album/album.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUi/src/app/components/album/album.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicGroup.WebUi/src/app/services/album.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.WebUi/src/app/services/album.service.ts" afterDir="false" />
+    <list default="true" id="9da4c82e-9d76-45c9-a329-a60111d3e1fb" name="Changes" comment="Refactoring;">
+      <change beforePath="$PROJECT_DIR$/MusicGroup.Db/FileDb/FileDbService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MusicGroup.Db/FileDb/FileDbService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +18,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d2d056b530d3883b13a0d4fa67185eeaff19c1138e4354a84a58bafc76b6db4/ValidateAntiForgeryTokenAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/de1dc94e26de2eb8cdb9b19e9451c6a0738025b875978dc863de7ba87ee78c4/ServiceCollectionServiceExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f7df6afec6fdf0b353d5e9cdc57d8ba131e10ad5c1dc959c58c6f0d6f0ce79/ExceptionFilterAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/oleksandrnefodov/Sources/MusicGroup/MusicGroup.Api.Server/Services/AlbumService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MusicGroup.WebUi/package-lock.json" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -199,8 +106,30 @@
       <updated>1679292753573</updated>
       <workItem from="1679292754890" duration="2672000" />
       <workItem from="1679348967333" duration="2586000" />
-      <workItem from="1679383971646" duration="4069000" />
+      <workItem from="1679383971646" duration="5096000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Delete albums and added new FileDbService;">
+      <created>1679388499975</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679388499975</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added Delete albums and added new FileDbService;">
+      <created>1679388511579</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679388511579</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Refactoring;">
+      <created>1679388544622</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679388544622</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +140,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Added Delete albums and added new FileDbService;" />
+    <MESSAGE value="Refactoring;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -272,10 +204,10 @@
           <line>59</line>
           <properties documentPath="$PROJECT_DIR$/MusicGroup.Api.Server/Services/AlbumService.cs" initialLine="55" containingFunctionPresentation="method 'DeleteAlbumAsync'">
             <startOffsets>
-              <option value="1641" />
+              <option value="1655" />
             </startOffsets>
             <endOffsets>
-              <option value="1642" />
+              <option value="1656" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="18" />
@@ -298,13 +230,52 @@
           <line>53</line>
           <properties documentPath="$PROJECT_DIR$/MusicGroup.Api.Server/Services/AlbumService.cs" initialLine="53" containingFunctionPresentation="method 'SaveAlbumAsync'">
             <startOffsets>
-              <option value="1483" />
+              <option value="1490" />
             </startOffsets>
             <endOffsets>
-              <option value="1504" />
+              <option value="1518" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MusicGroup.Db/FileDb/FileDbService.cs</url>
+          <line>52</line>
+          <properties documentPath="$PROJECT_DIR$/MusicGroup.Db/FileDb/FileDb.cs" initialLine="44" containingFunctionPresentation="method 'Insert'">
+            <startOffsets>
+              <option value="1367" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1411" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MusicGroup.Db/FileDb/FileDbService.cs</url>
+          <line>42</line>
+          <properties documentPath="$PROJECT_DIR$/MusicGroup.Db/FileDb/FileDb.cs" initialLine="42" containingFunctionPresentation="method 'Insert'">
+            <startOffsets>
+              <option value="1196" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1235" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MusicGroup.Db/FileDb/FileDbService.cs</url>
+          <line>49</line>
+          <properties documentPath="$PROJECT_DIR$/MusicGroup.Db/FileDb/FileDb.cs" initialLine="49" containingFunctionPresentation="method 'Insert'">
+            <startOffsets>
+              <option value="1346" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1347" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
